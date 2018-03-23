@@ -1,0 +1,9 @@
+
+     last = antistoixies[str(tritos)]
+     if megethoi[1] != teleuteos_pinakas[0]:
+         print("Οι πολλαπλασιασμοι των πινάκων",megethoi,teleuteos_pinakas," δεν γίνονται για τον συνδιασμό",pollaplasiasmos,"Οπου ίδιος αριθμός πολλαπλασιάζετε αντιστοιχος πίνακας")
+     else:
+         synolo_pollaplasiasmwn = megethoi[0] * megethoi[1] * teleuteos_pinakas[1] + synolo_pollaplasiasmwn
+    geniko_synolo.append(synolo_pollaplasiasmwn)
+
+print(geniko_synolo)
